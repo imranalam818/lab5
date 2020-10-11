@@ -1,0 +1,40 @@
+table {
+	
+
+	border: ridge;
+	border-radius: 1%;
+	border-color: red;
+	border-width: 20px;
+	padding: 20px;
+	margin: 20px,
+	
+	
+	
+}
+
+th {
+	text-align: center;
+	background-color: darkviolet;
+	color: white;
+	padding: 10px;
+	font-family: Lucida calligraphy;
+	
+}
+
+h1 {
+	color: red;
+	text-align: center;
+	font-family: Lucida Calligraphy;
+	padding: 50px;
+
+}
+tr:nth-child(even){
+	background-color: lightblue;
+}
+td {
+	text-align: center;
+	padding: 20px; 
+	font-weight: bold;
+	font-family: Lucida calligraphy;
+	
+}
