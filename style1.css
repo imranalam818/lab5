@@ -1,47 +1,30 @@
 body{
-	background-image: url(image/stars.jpg)
+    		 font-family: Lucida calligraphy; 
+    		 background-image: url("image/planets.jpg");
+    	}
+    	table{
+    			width: 90%;
+    	}
+    	table,th,td{
+    		border: solid black;
+    		border-collapse: collapse;
+    	}
+    		th,td{
+    			padding: 10px;
+    			text-align: center;
+    		}
+    			th{
+    				background-color: red;
+    				color: white;
+    			}
+    			tr:nth-child(even){
 
-table {
-	
+    				background-color: lightblue;
+    			}
+    			tr:nth-child(odd){
+    					background-color: yellow;
+    			}
+    				#header{
+    						background-color: grey;
 
-	border: ridge;
-	border-radius: 1%;
-	border-color: red;
-	border-width: 20px;
-	padding: 20px;
-	margin: 20px,
-	
-	
-	
-}
 
-th {
-	text-align: center;
-	background-color: darkviolet;
-	color: white;
-	padding: 10px;
-	font-family: Lucida calligraphy;
-	
-}
-
-h1 {
-	color: red;
-	text-align: center;
-	font-family: Lucida Calligraphy;
-	padding: 50px;
-
-}
-tr:nth-child(even){
-	background-color: lightblue;
-}
-tr:nth-child(odd){
-	background-color: black;
-	color: white;
-}
-td {
-	text-align: center;
-	padding: 20px; 
-	font-weight: bold;
-	font-family: Lucida calligraphy;
-	
-}
