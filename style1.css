@@ -3,12 +3,10 @@ body
   font-family: Lucida calligraphy; 
   background-image: url("image/planets.jpg");
 }
-    	
 table
 {
   width: 90%;
 }
-    	
 table,th,td
 {
   border: solid black;
@@ -26,8 +24,7 @@ th
 }
 tr:nth-child(even)
 {
-
-  background-color: lightblue;
+background-color: lightblue;
 }
 tr:nth-child(odd)
 {
