@@ -16,11 +16,11 @@ th,td {
   padding: 10px;
   text-align: center;
 }
-.first-row {
-  background-color: red;
-  color: white;	
-}
 #header {
   background-color: grey;
+}
+.first-row {
+  background-color: red;
+  color: black;
 }
 
