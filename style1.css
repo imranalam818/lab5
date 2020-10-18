@@ -1,6 +1,7 @@
 body {
   font-family: Lucida calligraphy;
   font-weight: bold; 
+  color: red;
   background-image: url("image/planets.jpg");
 }
 table {
@@ -8,22 +9,16 @@ table {
   margin: 200px;
 }
 table,th,td {
-  border: solid black;
+  border: solid green;
   border-collapse: collapse;
 }
 th,td {
   padding: 10px;
   text-align: center;
 }
-th {
+.first-row {
   background-color: red;
-  color: white;
-}
-tr:nth-child(even) {
-background-color: lightblue;
-}
-tr:nth-child(odd) {
-  background-color: yellow;
+  color: white;	
 }
 #header {
   background-color: grey;
