@@ -6,7 +6,7 @@ body {
 }
 table {
   width: 80%;
-  margin: 200px;
+  margin: 100px 200px 0px 200px;
 }
 table,th,td {
   border: solid green;
