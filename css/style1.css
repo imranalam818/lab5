@@ -1,12 +1,13 @@
 body {
   font-family: Lucida calligraphy;
   font-weight: bold; 
-  color: red;
-  background-image: url("image/planets.jpg");
+  color: blue;
+  background-image: url("../image/planets.jpg");
 }
 table {
-  margin: auto;
- 
+  margin: 0 auto; 
+  line-height: 2em;
+  font-size: 1.3em;
 }
 table,th,td {
   border: solid green;
